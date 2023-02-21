@@ -79,7 +79,45 @@ int main()
         cout<<"The string isInvalid";
     }
     
-    
+    // Reverse String
+    // char M[] = "python";
+    // char N[7];
+    // int m,n;
+    // for (m = 0; M[m] !='\0'; m++)
+    // {
+    // }
+    // // int length = i - 1; //  length of string 
+    // for (n =0; m >=0 ; m--,n++)
+    // {
+    //     N[n] = M[m];
+    // }
+    // N[n] = '\0';
+    // printf("%s",N);
+
+    // Comparing Two string
+
+    char P[] = "paint";
+    char Q[] = "painting";
+
+    int p,q;
+    for (p = 0,q = 0; P[p] != '\0' ; p++,q++)
+    {
+        if (P[p] != Q[q])
+        {
+            break;
+        }
+    }
+    cout<<endl;
+    if (P[p] == Q[q])
+    {
+        cout<<"String are same"<<endl;
+    }
+    else
+    {
+        cout<<"String are not equal"<<endl;    
+    }
+
+
     return 0;
 }
 
